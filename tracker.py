@@ -41,34 +41,6 @@ def send_message(chat_id, msg):
 # send the msg
     requests.get(url)
 
-#def bitcoin_threshold1(x)
-#    if x == 30000:
-#        return 30000
-#        x = 25000
-#    elif x <= 25000:
-#        x = 5000
-#    else:
-#        return x = 0
-
-#def bitcoin_threshold1(x, y):
-#    i = 1
-#    while i < 6:
-#        if i = 1:
-#            y = x = 30000
-#            return y
-#        else:
-#            y = x - 5000i
-#            return
-#
-#    if bitcoin_threshold1_start == 30000:
-#        bitcoin_threshold1_start = 25000
-#    elif bitcoin_threshold1_start == 25000:
-#        bitcoin_threshold1_start = 20000
-#    elif bitcoin_threshold1_start == 20000:
-#        bitcoin_threshold1_start = 15000
-
-    #keep going until = 0
-    #has to be a neater way to write something like this
 
 def bitcoin_threshold_low():
     global bitcoin_threshold1
